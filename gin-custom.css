@@ -225,6 +225,33 @@
   margin-bottom: 0;
 }
 
+.form-type--textarea {
+  margin-bottom: 30px !important;
+}
+
+.text-summary-wrapper {
+  margin-bottom: 15px;
+}
+
+.field--name-field-short-description .form-type--textarea {
+  margin-bottom: 0 !important;
+}
+
+.draggable a.tabledrag-handle {
+  float: left !important;
+}
+
+.paragraphs-add-wrapper.button--small {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.paragraphs-add-wrapper.button--small .button {
+  margin: 0 !important;
+}
+
 /* grid styles */
 .grid {
   display: grid;
